@@ -9,17 +9,21 @@
 </head>
 
 <body>
-    <h1>Word Counter</h1>
-    <br>
-    <textarea name="wordCounter" id="wordCounter" cols="100" rows="15" maxlength="2048"></textarea>
-    <br>
-    <button id="countButton">Translate</button>
-    <br>
-    <p>Your text has:</p>
-    <label for="" id="countedTextQuantity"></label>
-    <br>
-    <div id="center">
-        <div id="center2">
+    <header>
+        <h1>Word Counter</h1>
+    </header>
+
+    <section class="main-content">
+        <textarea name="wordCounter" id="wordCounter" cols="100" rows="15" maxlength="2048"></textarea>
+
+        <button id="countButton">Translate</button>
+
+        <p>Your text has:</p>
+        <label for="" id="countedTextQuantity"></label>
+    </section>
+
+    <section class="center-content">
+        <div class="center2">
             <h2>Table</h2>
             <div id="tableSpace">
                 <table>
@@ -32,16 +36,20 @@
                 </table>
             </div>
         </div>
-        <div id="center2">
+
+        <div class="center2">
             <h2>Chart</h2>
             <div id="myCanvas">
             </div>
         </div>
-    </div>
+    </section>
+
+    <footer>
+        <p>&copy; Felipe Cherpinski 2023</p>
+    </footer>
+
     <script type="module" src="/index.js"></script>
     <script src="/node_modules/chart.js/dist/chart.umd.js"></script>
-
-
 </body>
 
 </html>

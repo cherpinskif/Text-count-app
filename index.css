@@ -1,67 +1,106 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    display: block;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 15px;
+    /* Adiciona margem de 15px em todos os lados */
+    min-height: 100vh;
+    /* Garante que o corpo tenha pelo menos a altura da tela */
+    position: relative;
+}
+
+header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-table,
-button,
-p {
-    margin-top: 1rem;
+h1 {
+    color: #4285f4;
+}
+
+section.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+textarea {
     width: 100%;
-}
-
-th {
-    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
-    width: 7rem;
-    height: 2rem;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-table{
+button:hover {
+    background-color: #3367d6;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4285f4;
+}
+
+#countedTextQuantity {
+    font-size: 20px;
+    color: #4285f4;
+}
+
+section.center-content {
     display: flex;
-    justify-content: center;
-    width: 25%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.center2 {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4285f4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
 
 th {
-    min-width: 10rem;
+    background-color: #4285f4;
+    color: #fff;
 }
 
-#tableSpace {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    z-index: -1;
-}
-
-
-#center{
-    display: flex;
-    flex-direction:row;
+#myCanvas {
+    margin-top: 20px;
     width: 100%;
 }
 
-#myCanvas{
-    position: relative; 
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    margin: 50px;
-}
-
-#center2 {
-    width: 100%;
-}
-
-#center2 h2{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    
+    background-color: #f2f2f2;
+    padding: 10px;
+    color: #666;
 }
