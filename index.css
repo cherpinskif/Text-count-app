@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    text-align: center;
+}
+
+table,
+button,
+p {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+th {
+    border: 1px solid black;
+}
+
+button {
+    width: 7rem;
+    height: 2rem;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+th {
+    min-width: 10rem;
+}
+
+#tableSpace {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: -1;
+}
+
+
+#center{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+
+#myCanvas{
+    position: relative; 
+    width: 100%;
+    margin: 50px;
+}
+
+#center2 {
+    width: 100%;
+}
+
+#center2 h2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
