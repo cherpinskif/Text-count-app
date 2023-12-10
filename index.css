@@ -3,10 +3,8 @@ body {
     background-color: #f2f2f2;
     color: #333;
     margin: 15px;
-    /* Adiciona margem de 15px em todos os lados */
-    min-height: 100vh;
-    /* Garante que o corpo tenha pelo menos a altura da tela */
-    position: relative;
+     min-height: 100vh;
+     position: relative;
 }
 
 header {
